@@ -1,0 +1,37 @@
+.todo {
+    display: flex;
+    flex-direction: row;
+  }
+  #bouton{
+    background-color: #000000;
+    color: snow;
+    border-radius: 20%;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    border-stroke: solid;
+    border-width: 2px;
+    border-color: black;
+    position :absolute;
+    top: 10px;
+    left: 275px;
+  }
+  .boutonSupprimer{
+    margin-left: 5px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    height: 25px;
+    background-color: black;
+    color: snow;
+    border-radius: 20%;
+    border-color: black;
+  }
+  .toutCocher{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    height: 25px;
+    background-color: black;
+    color: snow;
+    border-radius: 20%;
+    border-color: black;
+  }

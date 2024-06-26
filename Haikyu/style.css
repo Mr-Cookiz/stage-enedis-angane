@@ -1,0 +1,72 @@
+html {
+    width: 100%;
+  }
+  
+  #titre-principale {
+    color: #ff9e4d;
+  }
+  
+  #titre-principale>span {
+    text-decoration: underline;
+  }
+  
+  #grande-image {
+    margin-bottom: 1px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+  }
+  
+  #titre-image {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #776e6e
+  }
+  
+  #resume>span {
+    text-decoration: underline;
+  }
+  
+  .perso {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 220px;
+  }
+  
+  .perso>img {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  .perso>p {
+    background-color: #ff9e4d;
+    width: fit-content;
+  }
+  
+  #tt-perso {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #bouton-crunchyroll{
+    background-color: #ff9e4d;
+    color: black;
+    border-radius: 20%;
+    height: 62.5px;
+    width: 125px;
+    font-size: 20px;
+    border-stroke: solid;
+    border-width: 2px;
+    border-color: white;
+    position :absolute;
+    top: 25px;
+    left: 550px;
+  }
