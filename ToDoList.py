@@ -29,13 +29,14 @@ class Todo:
     def decocher (self):
         self.fait = False
     def Afficher (self):
-        print(f"{self.label} > {self.fait}")
+        print(f"{self.label} > {'✅'if self.fait else'❌'}")
+    
 
 todolist = ToDoList()
 
 while True:
     todolist.AfficherTodos()
-    menu = input("1: Ajouter\n2: Enlever\n3: Afficher\n4: Vider\n5: Cocher\n6: décocher\n")
+    menu = input("1: Ajouter\n2: Enlever\n3: Afficher\n4: Vider\n5: Cocher\n6: Décocher\n")
     if menu == "1":
         todo = Todo()
         todolist.ajouterTodo(todo)
